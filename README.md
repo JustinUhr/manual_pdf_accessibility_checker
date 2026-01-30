@@ -70,17 +70,13 @@ The checker evaluates PDFs against multiple accessibility criteria organized int
 
 ### Using uv (Recommended)
 
-[uv](https://github.com/astral-sh/uv) is a fast Python package installer and resolver. To install dependencies with uv:
+[uv](https://github.com/astral-sh/uv) is a fast Python package installer and resolver. To install and run:
 
 ```bash
-uv pip install pikepdf PyMuPDF
+uv run check_pdf.py <path_to_pdf_file>
 ```
 
-Or install the package:
-
-```bash
-uv pip install .
-```
+This will automatically create a virtual environment and install the required dependencies.
 
 ### Using pip (Alternative)
 
