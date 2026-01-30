@@ -83,7 +83,7 @@ This will automatically create a virtual environment and install the required de
 If you prefer to use pip:
 
 ```bash
-pip install pikepdf PyMuPDF
+pip install pikepdf
 ```
 
 Or install the package:
@@ -108,7 +108,7 @@ python check_pdf.py <path_to_pdf_file> [options]
 ### Example
 
 ```bash
-python check_pdf.py document.pdf
+uv run check_pdf.py ../document.pdf
 ```
 
 ## Output
@@ -123,7 +123,7 @@ The tool produces a color-coded checklist showing the results for each accessibi
 ## Dependencies
 
 - [pikepdf](https://github.com/pikepdf/pikepdf) - PDF manipulation library
-- [PyMuPDF](https://github.com/pymupdf/PyMuPDF) - PDF rendering and analysis
+- ~~[PyMuPDF](https://github.com/pymupdf/PyMuPDF) - PDF rendering and analysis~~ (not currently used)
 
 ## License
 
