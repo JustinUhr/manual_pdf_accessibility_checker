@@ -86,14 +86,14 @@ If you prefer to use pip:
 pip install pikepdf
 ```
 
-Or install the package:
-
-```bash
-pip install .
-```
-
 ## Usage
 
+uv
+```bash
+uv run check_pdf.py <path_to_pdf_file> [options]
+```
+
+pip
 ```bash
 python check_pdf.py <path_to_pdf_file> [options]
 ```
