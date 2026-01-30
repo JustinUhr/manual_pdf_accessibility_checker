@@ -1,6 +1,6 @@
 # Manual PDF Accessibility Checker
 
-A Python tool for checking PDF accessibility compliance. This tool analyzes PDF documents to verify they meet accessibility standards, helping ensure documents are usable by people with disabilities who rely on assistive technologies like screen readers.
+A Python tool for checking PDF accessibility compliance. This tool analyzes PDF documents to verify they meet accessibility standards, helping ensure documents are usable by people who rely on assistive technologies like screen readers.
 
 ## Features
 
