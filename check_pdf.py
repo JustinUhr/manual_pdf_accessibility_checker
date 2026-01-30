@@ -1,4 +1,4 @@
-import pymupdf
+# import pymupdf
 import pikepdf
 import argparse
 import sys
